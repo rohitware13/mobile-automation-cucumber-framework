@@ -16,10 +16,10 @@
 The cucumber features goes in the src/test/resources/FeatureFiles library and should have the ".feature" extension.
 You can start out by looking at FeatureFiles/Login.feature. You can extend this feature or make your own features.
 
-Under main.java.automation.pages, use android or ios packages for maintaining page objects
+Under `main.java.automation.pages` use android or ios packages for maintaining page objects
 
 # Application Test Data
-You can keep application specific test data under main/resources/application.conf
+You can keep application specific test data under `main/resources/application.conf`
 
 # Executing of test
 Provide tag to the scenario and mention the tag in runner file (src/test/java/runner/RunnerClass.java)
